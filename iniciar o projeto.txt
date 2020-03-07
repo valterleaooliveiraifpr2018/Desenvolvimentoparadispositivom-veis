@@ -3,3 +3,8 @@ ng new "nome do projeto"(sem aspas).
 cd "nome do projeto"(sem aspas), para acessar o projeto.
 agora vamos start o projeto.
 ng serve --open
+
+detalhe quando subir o projeto para o git ele remove as bibliotecas do projeto
+ao iniciar novamente o projeto é necessario adicionalas com o comando
+
+npm install
