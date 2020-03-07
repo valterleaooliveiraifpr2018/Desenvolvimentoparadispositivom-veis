@@ -1,0 +1,1 @@
+ng new "nome do projeto"(sem aspas).
