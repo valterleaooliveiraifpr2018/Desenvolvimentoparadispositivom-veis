@@ -1,0 +1,25 @@
+programas necessarios:
+
+node.js > https://nodejs.org/pt-br/download/
+
+no windows acesse cmd
+
+no cmd tem que instalar alguns recursos
+o ionic > no cmd digite "npm install -g ionic"(sem as aspas).
+                        "npm install -g cordova"(sem as aspas).
+			 "npm install -g @angular/cli"(sem as aspas).
+
+ver as versões
+node -v
+ionic -v
+
+vamos instalar o Atom(IDE) > https://atom.io/
+dentro do atom quando abrir vai na aba install packeges que fica em settings
+
+file>setting....
+na aba install packages precisamos instalar alguns pacotes que seria,
+atom-typescript.
+ionic-preview.
+autocomplete-ionic-framework.
+
+fim.

@@ -1,0 +1,26 @@
+cria uma conta no github > https://github.com/
+
+ai cria um novo repositorio para um novo projeto
+
+entre no repositorio.
+clone o repositorio.
+
+//inicio da aplicação
+no windows. vá aonde deseja salvar o projeto.
+click botão direito em git bash here.
+dentro do git bash escreva git clone e o link,
+clonado no repositorio.
+
+//fim da aplicação
+git add *
+git commit -m a informação do commit exp "primeiro commit"(com a aspas).
+git push origin master
+//mostrar as configuração do git
+git config --list
+
+//configurar o git 
+git init
+git config --global user.email 
+git config --global user.name 
+//definir o repositorio
+git remote add origin link do repositorio exp https://github.com/valterleaooliveiraifpr2018/Desenvolvimentoparadispositivom-veis.git
