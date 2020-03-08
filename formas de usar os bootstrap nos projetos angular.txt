@@ -1,0 +1,53 @@
+1° forma de utilizar o bootstrap 
+acesse o site > https://ng-bootstrap.github.io/#/home
+installation
+Instalação
+Depois de instalar as dependências acima, instale ng-bootstrapvia:
+
+npm install --save @ng-bootstrap/ng-bootstrap
+Uma vez instalado, você precisa importar nosso módulo principal.
+
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+@NgModule({
+  ...
+  imports: [NgbModule, ...],
+  ...
+})
+export class YourAppModule {
+}
+
+2° forma de instalação
+
+acesse o site > https://valor-software.com/ngx-bootstrap/#/
+
+get started
+
+Instruções de instalação
+Método 1
+Instalar ngx-bootstrapdenpm
+
+npm install ngx - inicialização - salvar
+
+Você precisará de estilos de inicialização (Bootstrap 3)
+
+<! - index.html -> <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel = "folha de estilo" >
+  
+Ou Bootstrap 4
+
+<! --- index.html -> <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel = "folha de estilo" >
+
+3° forma e mais tradicional
+
+acesse o site > https://getbootstrap.com/
+
+get started
+
+na tag <head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> </head>
+
+dentro do <body><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></body> adicione ao final do body
+
+
+
+
+
