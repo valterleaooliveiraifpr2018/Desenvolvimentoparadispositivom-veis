@@ -1,0 +1,26 @@
+<div class="container">
+
+    <form class="m-5" >
+      <fieldset>
+        <legend>Calculo do Imc</legend>
+        <div class="form-group">
+            <label for="valor1">Digite o seu peso <strong>:</strong></label>
+            <input class="form-control" type="number" name="valor1"  [(ngModel)]="valor1" />
+
+        </div>
+        <div class="form-group">
+            <label for="valor2">Digite a sua altura<strong>:</strong></label>
+            <input class="form-control " type="number" name="valor2"  [(ngModel)]="valor2" />
+
+        </div>
+
+        <!-- <button type="button" name="button" (click)="calcular()"></button> -->
+
+        <!-- <label for="res">Resultado:</label>
+        <input type="text" name="res" id="res" /> -->
+        <input type="button" value="Calcular" class="btn btn-inf"  (click)="calcular()"/>
+
+        <!-- <button class="btn btn-inf" type="button" name="button" (click)="calcular()"></button> -->
+      </fieldset>
+    </form>
+</div>
